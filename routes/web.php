@@ -20,4 +20,12 @@ Route::get('/', function () {
     ];
 
     return view('home', $data);
-});
+})->name('home');
+
+Route::get('/aiuto', function(){
+    return view('aiuto');
+})->name('aiuto');
+
+Route::get('/hello', function(){
+    return view('hello');
+})->name('hello');

@@ -9,6 +9,11 @@
 <body>
   
 <h1>Hello Word</h1>
+<ul>
+  @foreach($aiuto as $aiutino)
+    <li>{{ $aiutino }}</li>
+  @endforeach
+</ul>
 
 </body>
 </html>
